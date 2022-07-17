@@ -5,6 +5,7 @@
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
     "@mui/material": "^5.9.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -13,8 +14,11 @@
     "@types/node": "^16.11.45",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
+    "autosuggest-highlight": "^3.3.2",
+    "axios": "^0.27.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.33.1",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "recoil": "^0.7.4",
@@ -44,5 +48,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/autosuggest-highlight": "^3.2.0",
+    "eslint": "^8.20.0"
   }
 }
